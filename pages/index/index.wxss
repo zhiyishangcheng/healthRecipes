@@ -19,3 +19,19 @@
 .usermotto {
   margin-top: 200px;
 }
+/*首页导航*/
+.indexNav{
+    display: flex;
+    width: 100%;
+}
+.indexNavLi{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+.indexNavLi image{
+    display: block;
+    width: 20px;
+    height: 20px; 
+    margin:0 auto 5px auto;  
+}

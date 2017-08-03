@@ -7,10 +7,26 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view></view> -->
-<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
-    <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
-    <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
-    <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
-    <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
-</scroll-view>
+<view class="indexNav">
+    <view class="indexNavLi">
+        <image src="../../img/icons/health.png"></image>
+        <text>周一</text>
+    </view>
+    <view class="indexNavLi">
+        <image src="../../img/icons/recipe.png"></image>
+        <text>周二</text>
+    </view>
+    <view class="indexNavLi">
+        <image src="../../img/icons/health.png"></image>
+        <text>周三</text>
+    </view>
+    <view class="indexNavLi">
+        <image src="../../img/icons/recipe.png"></image>
+        <text>周四</text>
+    </view>
+    <view class="indexNavLi">
+        <image src="../../img/icons/health.png"></image>
+        <text>周五</text>
+    </view>
+</view>
 
