@@ -1,32 +1,36 @@
-<!--index.wxml-->
-<!-- <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view></view> -->
-<view class="indexNav">
-    <view class="indexNavLi">
-        <image src="../../img/icons/health.png"></image>
-        <text>周一</text>
-    </view>
-    <view class="indexNavLi">
-        <image src="../../img/icons/recipe.png"></image>
-        <text>周二</text>
-    </view>
-    <view class="indexNavLi">
-        <image src="../../img/icons/health.png"></image>
-        <text>周三</text>
-    </view>
-    <view class="indexNavLi">
-        <image src="../../img/icons/recipe.png"></image>
-        <text>周四</text>
-    </view>
-    <view class="indexNavLi">
-        <image src="../../img/icons/health.png"></image>
-        <text>周五</text>
-    </view>
-</view>
-
+<!--index.wxml-->  
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">周一</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">周二</view>  
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">周三</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">周四</view>
+    <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">周五</view>  
+</view>  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+    <!-- 周一 -->  
+    <swiper-item>  
+        <view class="swiper-con" data-title="这几种人，活得最累！有你吗？">
+            <image class="swiper-conLeft" src="{{zhihu.icon}}"></image>
+            <view class="swiper-conRight">
+                <view class="title"> 标题:酸辣土豆丝</view>
+                <view class="detail"> 用料:大土豆、青辣椒、小红椒、大蒜、葱姜、油、花椒、醋、盐、辣椒油</view>
+            </view>
+        </view>
+    </swiper-item>  
+    <!-- 周二 -->  
+    <swiper-item>  
+      <view>周二</view>  
+    </swiper-item>  
+    <!-- 周三 -->  
+    <swiper-item>  
+      <view>周三</view>  
+    </swiper-item> 
+    <!-- 周四 -->  
+    <swiper-item>  
+      <view>周四</view>  
+    </swiper-item> 
+    <!-- 周五 -->  
+    <swiper-item>  
+      <view>周五</view>  
+    </swiper-item>  
+</swiper>  

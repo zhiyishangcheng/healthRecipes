@@ -1,37 +1,40 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/**index.wxss**/  
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777;  
+    text-align: center;  
+    line-height: 80rpx;}  
+.swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 20%;  
+    color: #777777;  
+}  
+.on{
+    color: #fff;  
+    background:#777;
+}    
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-con {
+display:flex;
+flex-direction:row;
+align-items:stretch;
+height:80rpx;
+
+}
+.swiper-conLeft{
+    width:150rpx;height:100rpx;margin: 8rpx;
+}
+.swiper-conRight{
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+height:80rpx;
+}
+.swiper-conRight .title{
+margin:5px;font-size:14rpx
+}
+.swiper-conRight .detail{
+   margin:5rpx;color:red;font-size:12rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
-/*首页导航*/
-.indexNav{
-    display: flex;
-    width: 100%;
-}
-.indexNavLi{
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-}
-.indexNavLi image{
-    display: block;
-    width: 20px;
-    height: 20px; 
-    margin:0 auto 5px auto;  
-}
+ 
