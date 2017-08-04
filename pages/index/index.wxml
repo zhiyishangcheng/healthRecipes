@@ -8,12 +8,19 @@
 </view>  
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
     <!-- 周一 -->  
-    <swiper-item>  
-        <view class="swiper-con" data-title="这几种人，活得最累！有你吗？">
+    <swiper-item> 
+        <view class="swiper-con" bindtap="tz">
             <image class="swiper-conLeft" src="{{zhihu.icon}}"></image>
             <view class="swiper-conRight">
-                <view class="title"> 标题:酸辣土豆丝</view>
-                <view class="detail"> 用料:大土豆、青辣椒、小红椒、大蒜、葱姜、油、花椒、醋、盐、辣椒油</view>
+                <view class="title"> 标题:{{zhihu.bName}}</view>
+                <view class="detail"> 用料:{{zhihu.phone}}</view>
+            </view>
+        </view>
+        <view class="swiper-con">
+            <image class="swiper-conLeft" src="{{zhihu.icon}}"></image>
+            <view class="swiper-conRight">
+                <view class="title"> 标题:{{zhihu.bName}}</view>
+                <view class="detail"> 用料:{{zhihu.phone}}</view>
             </view>
         </view>
     </swiper-item>  

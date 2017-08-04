@@ -1,0 +1,26 @@
+<!--detail.wxml-->
+<image src="../../img/detail/a1.jpg"></image>
+<view class="detail-title">
+    <text>妥妥帖帖妥妥帖帖图拖拖拖</text>
+</view>
+<view class="use">
+    <view class="=useTitle">用料</view>
+    <view class="uesLi">
+        <text>土豆</text>
+        <text>两个</text>
+    </view>
+    <view class="uesLi">
+        <text>青椒丝</text>
+        <text>四分之一个</text>
+    </view>
+    <view class="uesLi">
+        <text>辣椒油</text>
+        <text>可不用</text>
+    </view>
+</view>
+<view class="tip">
+    <view class="tipTitle">小贴士</view>
+    <view class="tipLi">1、土豆丝不易太细，太细易断，切到粗细均匀最好了。</view>
+    <view class="tipLi">2、醋要起锅前加，若先加入醋的酸味会蒸发掉，最后起锅就没那么酸了，当然也可以分两次加，放土豆丝时加一次，起锅加一次。</view>
+    <view class="tipLi">3、土豆丝不能炒太久，火候稍微一过土豆丝就软了。</view>
+</view>

@@ -1,0 +1,7 @@
+/* detail.wxss */
+.detail-title,.use,.tip{padding:0 10px; margin: 10px 0;}
+.detail-title text{border-bottom: 1px solid #dfdfdf;text-align: center;display: block;width: 100%;padding: 10px 0;color:#777;}
+.useTitle,.tipTitle{font-weight: bold;border-bottom: 1px solid #dfdfdf;padding: 10px 0;}
+.uesLi{border-bottom: 1px solid #dfdfdf;padding: 10px 0;font-size: 12px;}
+.uesLi text{display: inline-block;width: 50%;text-align: left;}
+.tipLi{padding:5px 0;font-size: 12px;}

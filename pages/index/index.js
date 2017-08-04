@@ -85,5 +85,11 @@ Page({
             })
         }
     },
+    // 跳转
+    tz: function () {
+        wx.navigateTo({
+            url: '../detail/detail'
+        })
+    }
 })
 
